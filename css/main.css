@@ -1,0 +1,72 @@
+/* Parent Container */
+.content_img{
+    position: relative;
+}
+
+.order-button{
+    justify-content: center;
+}
+
+/* Child Text Container */
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.title_wrap{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #F9F5EB;
+    padding: 10px;
+    border-radius: 10px;
+}
+.div-outer-style{
+    border: 2px solid grey;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px grey;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+}    
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+.navbar-custom {
+    background-color: #850E35;
+}
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #EAE3D2;
+}
+
+.navbar-custom a {
+    color: EAE3D2;
+}
+
+.card-properties {
+    background-color: #F9F5EB;
+}
+
+.card-properties a {
+    color: #1C3879;
+}
+
+
